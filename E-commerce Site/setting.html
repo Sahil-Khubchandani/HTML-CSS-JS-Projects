@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"href=
+        "/bootstrap/bootstrap.min.css" 
+        type="text/css">
+                  
+        <!-- jQuery library -->
+        <script type="text/javascript" 
+        src="/jquery/bootstrap.min.js">
+        </script>
+                    
+        <!-- Latest compiled and minified javaScript -->
+        <script type="text/javascript" 
+        src="/jquery/jquery-3.4.1.min.js">
+        </script>
+        
+        <meta name="viewport" content="width=device-width, initital-scale=1">
+        <title>Lifestyle Store</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <style>
+            footer{
+                margin-top: 345px;
+            }
+            form{
+                margin-top: 70px;
+            }
+            button:focus{
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="cart.html"><link rel="input" type="data"  href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</span></a></li>
+                        <li><a href="logout.html"><link rel="input" type="data"  href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</span></a></li>
+                        <li><a href="setting.html"><link rel="input" type="data"  href="setting.php"><span class="glyphicon glyphicon-cog"></span> Setting</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="form-group">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4">
+                        <form>
+                            <h4>Change Password</h4>
+                                <div class="form-group">
+                                        <input type="password" class="form-control " name="Old Password" placeholder="Old Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control " name="New Password" placeholder="New Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control " name="Re-type New Password" placeholder="Re-type New Password">
+                                </div>
+                                <div class="form-group">
+                                        <button class="btn btn-primary">Change</button>
+                                </div>
+                        </form>    
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <footer>
+            <div class="container">
+                <center>
+                    <p>
+                        Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000.
+                    </p>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
